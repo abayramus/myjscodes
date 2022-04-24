@@ -25,23 +25,31 @@ console.log(x);//11
 console.log(x);//11
 console.log(++x);//12. INCREATE FIRST(11+1=12), THEN PRINT THE NUMBER
 
+//post decrement var-- : First Print variable, Then Subtract 1
+console.log(x);//12
+console.log(x--);//12. Then decrease by 1=11
+console.log(x);//11
+
+//pre decrement  --var : First decrease 1 one, Then print
+console.log(x);//11
+console.log(--x);//10
+console.log(x);//10
+
+//
+console.log(y);//5
+var myNum;//declare a variable
+myNum=++y;//assigning value of y to that variable
+console.log(myNum);//5
 
 
+let favNum = 1;
+let favNum1= 1;
 
-//post decrement var--
-//pre decrement  --var
+favNum++;//post increment. 1 + 1 = 2
+++favNum1;//pre increment. 1 + 1 = 2
 
+//favNum= 2
+//favNum1= 2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(favNum);//2
+console.log(favNum1);//2
