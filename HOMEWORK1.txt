@@ -1,0 +1,5 @@
+1. Get one side of the square from the user and print the area of the square on the console
+2. Get both sides of the rectangle form the user and print the perimeter of the rectangle on the console
+3. Get the radius of the circle from user and print the area of the circle on the console
+4. Get both sides of the triangle and print the hypothenuse of the triangle. Round your answer to the nearist whole number.
+5. Create a prompt : “Write your tweet” —-> use prompt. Type random text and calculate the number of sent character and the remaining character.Note Max character is 280.
