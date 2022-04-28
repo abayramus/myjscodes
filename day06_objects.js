@@ -73,6 +73,7 @@ for(let eachItem in addressInfo){
 "USA" 
 */
 }
+
 //Before destructuring accession street
 console.log(addressInfo.street);//"Little Elm Creek"
 //4. Destructuring Objects
