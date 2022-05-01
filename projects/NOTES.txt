@@ -1,0 +1,71 @@
+Numbers Project Plan:
+1. We need to know Number 1 input field value
+    -Which html element is number1 input ?
+     <input type="number" id="input-box-1" >
+
+    -How can I get this input element?
+    document.getElementById('input-box-1')
+
+
+    -How can I get the entered value in this input?
+    document.getElementById('input-box-1').value
+
+--------------
+2. We need to know when I want to run the javascript code
+    -I want to run the js code right after I click on the Check Number button
+
+    -Which element is Check Number button?
+    <input type="button" id="button" value="Check Number"> 
+
+    -How js will understant that I click on this button?
+    Handler. onclick handler will be used for understanding the button click
+
+    -For Example, when the button is clicked, isEven() function will trigger, because onclick="isEven()"
+     <input type="button" id="button" value="Check Number" onclick="isEven()">  <br><br>
+
+
+SUMMARY:
+
+*onclick event handler is used for understandingthe button click
+onclick="testFunction"
+
+*testFunction is used what you want to happen after button click
+in out example, we received the value of the input and checked if it is even or odd
+And printed even or odd in an alert
+
+*document.getElementById('input-box-1').value; returns the value of element whose id=input-box-1
+There are different locators in js to access the elements:
+document.getElementById('id')
+document.getElementsByClassName(“class name”); 
+document.getElementsByTagName(“tag name”);
+document.querySelector(“ multiple ways ”);
+
+TASK 2:
+Enter 2 numbers for number 1 and number 2 fields
+Task 1: When user clicks on calculate sum, then result show be displayed on the UI  <div id="show-sum"></div><br>
+Task 2: When user clicks on calculate products, then result show be displayed on the UI  <div id="show-product"></div><br>
+
+PLAN: 
+1. We need to know Number 1 input field value
+  -Which html element is number1 input ?
+     <input type="number" id="input-box-1" >
+
+    -How can I get this input element?
+    document.getElementById('input-box-1')
+
+    -How can I get the entered value in this input?
+    document.getElementById('input-box-1').value
+
+2. We need to know Number 2 input field value
+     -How can I get the entered value in this input?
+     document.getElementById('input-box-2')
+
+
+3. We need to know when I want to run the javascript code
+    -right after i click on Calculate Sum button
+    -This means in the button element I should use onclick handler
+    onclick="calculateSum()"
+    then create calculateSum() in js file
+    
+4. We need to know where to show the result
+    <div id="show-sum"></div><br>
